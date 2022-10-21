@@ -1,10 +1,10 @@
-package com.server.boot.androidserver;
+package com.manage.book;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AndroidServerApplicationTests {
+class BookApplicationTests {
 
 	@Test
 	void contextLoads() {

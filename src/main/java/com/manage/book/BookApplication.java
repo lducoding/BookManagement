@@ -1,14 +1,13 @@
-package com.server.boot.androidserver;
+package com.manage.book;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AndroidServerApplication {
+public class BookApplication {
 
 	public static void main(String[] args) {
-
-		SpringApplication.run(AndroidServerApplication.class, args);
+		SpringApplication.run(BookApplication.class, args);
 	}
 
 }
