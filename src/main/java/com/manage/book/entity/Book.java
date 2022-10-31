@@ -10,5 +10,7 @@ public class Book {
     @Column(name="book_id")
     private Long bookId;
 
+    private String bookName;
 
+    private String date;
 }
