@@ -21,7 +21,6 @@ public class BookController {
     public ResponseEntity<Long> registerBook(BookInfoDto bookInfoDto) {
         HttpHeaders httpHeaders = new HttpHeaders();
         bookService.registerBook(bookInfoDto);
-
         return new ResponseEntity<Long>(1L, httpHeaders, HttpStatus.OK);
     }
 }
